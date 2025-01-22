@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro:bit Remote Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Micro:bit Remote Control</h1>
+        <button id="connectButton">Conectar Micro:bit</button>
+        <div class="controls">
+            <button class="control-btn" data-command="F">Adelante</button>
+            <button class="control-btn" data-command="L">Izquierda</button>
+            <button class="control-btn" data-command="R">Derecha</button>
+            <button class="control-btn" data-command="B">Atrás</button>
+        </div>
+        <p id="status">Estado: Desconectado</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
